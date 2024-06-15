@@ -11,9 +11,8 @@
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Header and Footer</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+Different designs of Headers and Footers
 </div>
 
 <br />
