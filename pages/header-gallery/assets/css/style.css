@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #000000;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+/*static design*/
+/*design 1*/
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+}
+.design1 img{
+    height: 130px;
+    object-fit:fill;
+}
+.design1 {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design1 ul {
+    display: flex;
+    list-style-type: none;
+}
+.design1 ul li{
+    margin:0 5px;
+}
+.design1 a{
+    text-decoration: none;
+    padding: 0.3rem 2.3rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f0a00;
+    position: relative;
+    z-index: 1;
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+}
+
+/* design 2*/
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    padding: 20px;
+}
+
+
+.design2 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #333;
+}
+
+
+.design2 img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.design2 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.design2 ul li {
+    margin: 10px 50px;
+}
+
+
+.design2 a {
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    transition: color 1.0s, background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: pink;
+    border-radius: 100px;;
+}
+.design2 button {
+    border: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color:palevioletred;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* design 3*/
+.design3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.design3 img {
+    width: 220px;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+.design3 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    font-size: 30px;
+    padding-right: 5%;
+    align-items: center;
+
+}
+.design3 a span {
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    background-color: palevioletred;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+
+/*design 4*/
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    padding: 20px 0;
+}
+
+.design4 {
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 50px;
+}
+
+.design4 img {
+    height: 130px;
+    object-fit: cover;
+}
+
+.design4 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.design4 a {
+    text-decoration: none;
+    padding: 0.3rem 3.3rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s, background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma;
+    background-color:palevioletred ;
+}
+
+.design4 button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border:0;
+    outline:0;
+    background-color:palevioletred;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    transition:  color 0.3s,background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: bold;
+}
+
+/* design 5*/
+
+.container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    padding: 20px;
+    border-bottom: solid 10px pink;
+    border-top: solid 10px pink;
+}
+
+.design5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img {
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.design5 a {
+    position: relative;
+    font-size:25px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+
+/*animated design*/
+/*design 1*/
+.container-Animation1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    padding: 20px 0;
+}
+
+.Animation1 {
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 50px;
+}
+
+.Animation1 img {
+    height: 100spx;
+    object-fit: cover;
+}
+
+.Animation1 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.Animation1 a {
+    text-decoration: none;
+    padding: 0.3rem 3.3rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s, background-color 0.3s;
+    font-family: 'Verdana', sans-serif;
+    background-color:palevioletred ;
+}
+
+.Animation1 button{
+   display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border:0;
+    outline:0;
+    background-color: palevioletred;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    transition:  color 0.3s,background-color 0.3s;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+}
+
+.Animation1 button:hover{
+    color: palevioletred;
+    background-color: pink;
+
+}
+.Animation1 a:hover {
+    color:  palevioletred;
+    background-color: pink;
+
+}
+
+/* design 2*/
+.container-Animation2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    padding: 20px;
+    border-bottom: solid 10px pink;
+    border-top: solid 10px pink;
+}
+
+.Animation2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Animation2 img {
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease-out;
+}
+.Animation2 a {
+    position: relative;
+    font-size:25px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 40px;
+    transition: color .5s;
+}
+
+.Animation2 a:hover {
+    color: pink;
+}
+
+.Animation2 a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ;
+}
+
+.Animation2 a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+nav.Animation2 img:hover {
+    transform: scale(1.1);
+}
+
+/* design 3*/
+
+.container-Animation3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+
+.Animation3 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #333;
+}
+
+
+.Animation3 img {
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.Animation3 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Animation3 ul li {
+    margin: 10px 50px;
+}
+
+
+.Animation3 a {
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    transition: color 1.0s, background-color 0.3s;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+    background-color: pink;
+    border-radius: 100px;
+
+}
+
+
+.Animation3 a:hover {
+    color: #fff;
+    background-color:  palevioletred;
+    border-radius: 100px;
+    animation: buttonScale 1.5s infinite;
+}
+
+
+@keyframes buttonScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.Animation3 button {
+    border: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: pink;
+    border-radius: 100px;
+    cursor: pointer;
+    animation: buttonScale 1.5s infinite;
+}
+nav.Animation3 img:hover {
+    transform: scale(1.1);
+}
+
+/* design 4*/
+.Animation4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.Animation4 img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+.Animation4 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    font-size: 30px;
+    padding-right: 5%;
+    align-items: center;
+
+}
+
+.Animation4 a span {
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    background-color:  palevioletred;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.Animation4 a:hover span {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.Animation4 a:hover {
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+.Animation4 img:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+
+/*design 5*/
+.container-Animation5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:pink;
+}
+.Animation5 img{
+    height: 130px;
+    object-fit:fill;
+}
+.Animation5 {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Animation5 ul {
+    display: flex;
+    list-style-type: none;
+}
+.Animation5 ul li{
+    margin:0 5px;
+}
+.Animation5 a{
+    text-decoration: none;
+    padding: 0.3rem 2.3rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Animation5 ul a::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 100%;
+}
+.Animation5 ul a:hover:after{
+    width: 100%;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%; /* Adjusted to make it responsive */
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Ensures content stacks vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Centers text inside content */
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: pink;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav .button:hover {
+    background-color: pink;
+}
+
+.subtitle {
+    color: pink;
+    font-size: 18px;
+}
+
+.title {
+    color: #333;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button.ghost {
+    background-color: transparent;
+    border: 2px solid pink;
+    color: pink;
+}
+
+.button.poison {
+    background-color: pink;
+    border: 2px solid pink;
+    color: #FFF;
+}
+
+.button.ghost:hover {
+    background-color: pink;
+    color: #FFF;
+}
+
+.button.poison:hover {
+    background-color: transparent;
+    color: pink;
+}
