@@ -19,7 +19,7 @@ Different designs of Headers and Footers
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=nicollechoy/WD-SW3)
 
 ---
 
@@ -59,22 +59,20 @@ Different designs of Headers and Footers
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project is about the different designs of headers and footers. This shows the different effects like being static and animated. The purpose of this project is to also show the different effects that client's may like.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Hover transition
-- 
+- Hover Transition
+- Box Shadow Effect
+- Border Radius Effect
+- Transition Effect
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -115,5 +113,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Github | Got ideas | https://github.com/zyx-0314/WD-Seatwork-3
+| Icons | Adding icons in CSS | https://www.iconfinder.com/
+| Buttons | Adding button effects in CSS | https://www.w3schools.com/howto/howto_css_animate_buttons.asp
+| Buttons | Adding button effects in CSS | https://dev.to/webdeasy/top-20-css-buttons-animations-f41
