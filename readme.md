@@ -58,7 +58,6 @@ Different designs of Headers and Footers
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
 - The project is about the different designs of headers and footers. This shows the different effects like being static and animated. The purpose of this project is to also show the different effects that client's may like.
 
 ### Key Components
