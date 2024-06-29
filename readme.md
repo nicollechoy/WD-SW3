@@ -4,12 +4,12 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/nicollechoy/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.png" alt="logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Header and Footer</h3>
+  <h3 align="center">Seat Work 3: Header and Footer</h3>
 </div>
 <div align="center">
 Different designs of Headers and Footers
@@ -56,9 +56,7 @@ Different designs of Headers and Footers
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-- The project is about the different designs of headers and footers. This shows the different effects like being static and animated. The purpose of this project is to also show the different effects that client's may like.
+The project is about the different designs of headers and footers. This shows the different effects like being static and animated. The purpose of this project is to also show the different effects that client's may like.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
