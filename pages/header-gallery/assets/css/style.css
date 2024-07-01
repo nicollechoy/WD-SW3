@@ -12,6 +12,17 @@ h1{
     align-items: center;
     flex-direction: column;
 }
+
+.btn {
+    display: flex;
+    background-color: pink;
+    border-radius: 10%;
+    width: 120px;
+    color: white;
+    align-items: center;
+    margin-left: 60rem;
+}
+
 a{
     display: flex;
     text-decoration: none;
@@ -69,17 +80,12 @@ a{
 
 
 .design2 {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    color: #333;
 }
 
 
@@ -413,11 +419,6 @@ nav.Animation2 img:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    color: #333;
 }
 
 
