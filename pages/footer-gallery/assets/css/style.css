@@ -13,6 +13,16 @@ h1 {
     flex-direction: column;
 }
 
+.btn {
+    display: flex;
+    background-color: pink;
+    border-radius: 10%;
+    width: 120px;
+    color: white;
+    align-items: center;
+    margin-left: 60rem;
+}
+
 a {
     display: flex;
     text-decoration: none;
